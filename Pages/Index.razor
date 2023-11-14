@@ -1,16 +1,23 @@
 ﻿@page "/"
 
 <PageTitle>Index</PageTitle>
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<style>
+    .hot-pink-button{
+        background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        color:white;
+    }
+</style>
 
 <div class="container-fluid">
     <div class="d-flex justify-content-center">
         <img class="img-fluid" src="css/assets/poloViceHero2.png" />
     </div>
-    <div class="main-content">
+    <div class="d-grid">
+        <button class="hot-pink-button btn btn-lg">CREATE YOUR OWN CUSTOM TEE</button>
+    </div>
+
+
+    <div class=" row row-cols-1 row-cols-md-3 g-2">
         <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
         <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
         <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
