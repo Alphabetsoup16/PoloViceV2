@@ -2,21 +2,45 @@
 
 <PageTitle>Index</PageTitle>
 <style>
-    .hot-pink-button{
-        background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-        color:white;
+    .hot-pink-button {
+        background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+        color: white;
+        border: 1px solid #fff;
+    }
+
+    .hero-img {
+        background-image: url("css/assets/poloViceHero2.png");
+        min-height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .hero-text {
+        transform: rotate(-8deg);
+        color: white;
+        font-size: 9em;
+        font-family: 'Neon', cursive;
+        text-shadow: 2px 2px 2px black;
+        padding: 1.25rem;
+        margin: 0 auto;
     }
 </style>
 
-<div class="container-fluid">
-    <div class="d-flex justify-content-center">
-        <img class="img-fluid" src="css/assets/poloViceHero2.png" />
+<div class="hero-img">
+    <div class="container vh-100">
+        <NavMenu />
+        <div class="position-absolute hero-text">
+            Custom<br>Shirts
+        </div>
+        <div class="position-absolute fixed-bottom mx-auto text-center">
+            <button class="hot-pink-button btn btn-lg mb-2">CREATE YOUR OWN CUSTOM TEE</button>
+        </div>
     </div>
-    <div class="d-grid">
-        <button class="hot-pink-button btn btn-lg">CREATE YOUR OWN CUSTOM TEE</button>
-    </div>
+</div>
 
-
+<div class="container-fluid mt-2">
     <div class=" row row-cols-1 row-cols-md-3 g-2">
         <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
         <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
