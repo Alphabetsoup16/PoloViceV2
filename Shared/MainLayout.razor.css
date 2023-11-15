@@ -9,34 +9,10 @@ main {
 }
 
 .background-gradient {
-    background-image: linear-gradient(0deg,
-            hsl(240deg 100% 20%) 0%,
-            hsl(248deg 100% 21%) 13%,
-            hsl(256deg 100% 23%) 19%,
-            hsl(265deg 100% 24%) 24%,
-            hsl(273deg 100% 26%) 28%,
-            hsl(282deg 100% 27%) 32%,
-            hsl(290deg 100% 29%) 35%,
-            hsl(298deg 100% 30%) 39%,
-            hsl(307deg 100% 31%) 42%,
-            hsl(315deg 100% 33%) 45%,
-            hsl(323deg 100% 34%) 48%,
-            hsl(332deg 100% 36%) 52%,
-            hsl(340deg 100% 37%) 55%,
-            hsl(348deg 100% 39%) 58%,
-            hsl(357deg 100% 40%) 61%,
-            hsl(5deg 100% 41%) 65%,
-            hsl(13deg 100% 43%) 68%,
-            hsl(22deg 100% 44%) 72%,
-            hsl(30deg 100% 46%) 76%,
-            hsl(39deg 100% 47%) 81%,
-            hsl(47deg 100% 49%) 87%,
-            hsl(55deg 100% 50%) 100%);
+    background: rgb(15,2,191);
+    background: linear-gradient(0deg, rgba(15,2,191,1) 11%, rgba(252,68,234,1) 18%, rgba(252,69,234,1) 52%, rgba(18,85,207,1) 75%, rgba(4,19,113,1) 92%);
 }
 
-.sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-}
 
 .top-row {
     background-color: #f7f7f7;

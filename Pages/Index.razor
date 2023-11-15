@@ -9,7 +9,7 @@
     }
 
     .hero-img {
-        background-image: url("css/assets/poloViceHero2.png");
+        background-image: url("css/assets/poloViceHero4.png");
         min-height: 400px;
         background-position: center;
         background-repeat: no-repeat;
@@ -26,24 +26,29 @@
         padding: 1.25rem;
         margin: 0 auto;
     }
+
+    .container-body {
+        max-width: 75%;
+        box-shadow: 4rem;
+    }
 </style>
 
-<div class="hero-img">
-    <div class="container vh-100">
-        <NavMenu />
-        <div class="position-absolute hero-text">
-            Custom<br>Shirts
-        </div>
-        <div class="position-absolute fixed-bottom mx-auto text-center">
-            <button class="hot-pink-button btn btn-lg mb-2">CREATE YOUR OWN CUSTOM TEE</button>
+<div class="container-body shadow-lg">
+    <div class="hero-img">
+        <div class="container vh-100">
+            <NavMenu />
+            <div class="position-absolute fixed-bottom mx-auto text-center">
+                <button class="hot-pink-button btn btn-lg mb-2">CREATE YOUR OWN CUSTOM TEE</button>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="container-fluid mt-2">
-    <div class=" row row-cols-1 row-cols-md-3 g-2">
-        <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
-        <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
-        <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
+
+    <div class="container-fluid mt-2" style="background-color:black">
+        <div class=" row row-cols-1 row-cols-md-3 g-2">
+            <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
+            <TShirtCard ImageSrc="css/assets/cactusCowboy.png" AltText="MiamiViceShirt" />
+            <TShirtCard ImageSrc="css/assets/miamiviceshirt.png" AltText="MiamiViceShirt" />
+        </div>
     </div>
 </div>
