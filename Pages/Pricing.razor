@@ -1,0 +1,129 @@
+﻿@page "/pricing"
+@using PoloViceV2.Data
+
+<PageTitle>Pricing</PageTitle>
+<style>
+    .card-retro {
+        border: 1px solid #fff;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        text-shadow: 1px 1px 1px black;
+
+    }
+</style>
+<div class="p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+    <p class="fs-5 text-body-secondary">
+        Our custom design and printing process
+        is flexible and will accomidate all your needs!
+    </p>
+</div>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-retro">
+            <div class="card-header py-3">
+                <h3 class="my-0 fw-normal">Free</h3>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">
+                    $0
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>3 free logo designs</li>
+                    <li>Multiple print options</li>
+                    <li>High quality materials</li>
+                    <li>free prompt helper</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Sign up now!</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-retro">
+            <div class="card-header py-3">
+                <h3 class="my-0 fw-normal">Personal</h3>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">
+                    $2 <small class="text-body-secondary fw-light">per 20 designs</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>Save your logo designs</li>
+                    <li>Multiple print options</li>
+                    <li>High quality materials</li>
+                    <li>Free shipping</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Sign up now!</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm card-retro">
+            <div class="card-header py-3">
+                <h3 class="my-0 fw-normal">Commercial</h3>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title">
+                    $50 <small class="text-body-secondary fw-light">per 400 designs</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>High definition</li>
+                    <li>Multiple print options</li>
+                    <li>High quality materials</li>
+                    <li>Free shipping</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Sign up now!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<h2 clas="display-6 text-center mb-4">Plan Features</h2>
+<div class="table-responsive">
+    <table class="table table-dark align-middle">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Free</th>
+                <th scope="col">Personal</th>
+                <th scope="col">Commercial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="text-start" scope="row">Browse design library</th>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+            </tr>
+            <tr>
+                <th class="text-start" scope="row">Prompt helper access</th>
+                <td></td>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+            </tr>
+            <tr>
+                <th class="text-start" scope="row">Save your designs</th>
+                <td></td>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+            </tr>
+            <tr>
+                <th class="text-start" scope="row">High definition design</th>
+                <td></td>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+            </tr>
+            <tr>
+                <th class="text-start" scope="row">Premium materials</th>
+                <td></td>
+                <td><i class="bi bi-check-lg"></i></td>
+                <td><i class="bi bi-check-lg"></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+@code {
+
+}
